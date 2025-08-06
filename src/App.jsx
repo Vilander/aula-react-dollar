@@ -12,8 +12,8 @@ function App() {
     <>
       <div className='container'>
         <Titulo />
+        <Menu/>
       </div>
-      <Menu/>
       <Rodape />
     </>
   )
