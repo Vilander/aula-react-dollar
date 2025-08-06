@@ -10,7 +10,7 @@ function Menu() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav m-auto text-center">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Calcuradora de Dólar</a>
+                            <a className="nav-link" href="#">Calculadora de Dólar</a>
                         </li>
                     </ul>
                 </div>
