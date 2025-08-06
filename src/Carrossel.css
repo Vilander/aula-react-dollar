@@ -10,6 +10,7 @@
     background-color: rgba(163, 163, 163, 0.555);
     padding: 1rem;
     border-radius: 50%;
+    box-shadow: 5px 5px 15px 4px #aba6a645;
 }
 
 .carousel{
