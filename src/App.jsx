@@ -6,6 +6,7 @@ import Titulo from './Titulo';
 import Rodape from './Rodape';
 import Menu from './Menu'
 import Carrossel from './Carrossel';
+import CalcDollar from './CalcDollar';
 
 
 function App() {
