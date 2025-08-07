@@ -17,6 +17,7 @@ function App() {
         <Titulo />
         <Menu/>
         <Carrossel/>
+        <CalcDollar/>
       </div>
       <Rodape />
     </>
