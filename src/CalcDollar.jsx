@@ -1,4 +1,5 @@
 import './CalcDollar.css';
+import { TbPigMoney } from "react-icons/tb";
 
 function CalcDollar() {
 
@@ -6,7 +7,7 @@ function CalcDollar() {
         const reais = document.getElementById('reais').value
         const cotacao = document.getElementById('cotacao').value
         const total = reais/cotacao
-        alert(total)
+        alert(total.toFixed(2))
 
     })
 
@@ -21,7 +22,7 @@ function CalcDollar() {
                     <label htmlFor="cotacao">Cotação do Dólar</label>
                     <input type="text" className='form-control' id='cotacao'/>
                 </div>
-                <button type='button' onClick={calcular} className='btn btn-primary w-100 liquid'>Calcular</button>
+                <button type='button' onClick={calcular} className='btn btn-primary w-100 liquid'><TbPigMoney size={20} color='inherit'/> Calcular</button>
             </form>
         </>
     );
