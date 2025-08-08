@@ -13,7 +13,7 @@ function CalcCm() {
             } else if (isNaN(metro)) {
                 alert("O valor digitado não é um número válido")
             } else {
-                alert("A medida em cm é: " + total.toFixed(2) + "cm")
+                alert("A medida em cm é: " + total.toFixed(0) + "cm")
             }
             
 
@@ -21,7 +21,7 @@ function CalcCm() {
 
     return (
         <>
-            <div className='card'>
+            <div className='card-calcs3'>
                 <a className="nav-link" href="#">Conversor de metros em centímetro</a>
                 <form className="w-25 m-auto pt-5 pb-5">
                     <div className="form-group mb-3">

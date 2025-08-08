@@ -21,7 +21,7 @@ function CalcMetros() {
 
     return (
         <>  
-            <div className='card'>
+            <div className='card-calcs'>
                 <a className="nav-link" href="#">Conversor de centimetro em Metros</a>
                 <form className="w-25 m-auto pt-5 pb-5">
                     <div className="form-group mb-3">

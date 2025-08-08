@@ -5,37 +5,39 @@ function CalcDollar() {
 
     const calcular = (function () {
         const reais = document.getElementById('reais').value
-            if (reais === '') {
-                alert("O Campo 'VALOR EM REAIS' está vazio, digite um número válido")
-            } else if (isNaN(reais)) {
-                alert("O valor digitado no campo 'VALOR EM REAIS' não é um número válido")
-            } else {
-                reais
-            }
+        if (reais === '') {
+            alert("O Campo 'VALOR EM REAIS' está vazio, digite um número válido")
+        } else if (isNaN(reais)) {
+            alert("O valor digitado no campo 'VALOR EM REAIS' não é um número válido")
+        } else {
+            reais
+        }
+
         const cotacao = document.getElementById('cotacao').value
-            if (cotacao === '') {
-                alert("O Campo 'COTAÇÃO' está vazio, digite um número válido")
-            } else if (isNaN(cotacao)) {
-                alert("O valor digitado no campo 'COTAÇÃO' não é um número válido")
-            } else {
-                cotacao
-            }
+        if (cotacao === '') {
+            alert("O Campo 'COTAÇÃO' está vazio, digite um número válido")
+        } else if (isNaN(cotacao)) {
+            alert("O valor digitado no campo 'COTAÇÃO' não é um número válido")
+        } else {
+            cotacao
+        }
+
         const total = reais / cotacao
-            if (isNaN(reais || cotacao)){
-                alert("Campos preenchidos erroneamente, tente outra vez!")
-            }else if( reais || cotacao ===''){
-                alert("Campos preenchidos erroneamente, tente outra vez!")
-            }else{
-                alert("O valor do seu dinheiro convertido em Dólar é: $"+total)
-            }
-        
-             
+        if (isNaN(total)) {
+            alert("Campos preenchidos erroneamente, tente outra vez!")
+        } else if (total === '') {
+            alert("Campos preenchidos erroneamente, tente outra vez!")
+        } else {
+            alert("O valor do seu dinheiro convertido em Dólar é: $" + total.toFixed(2))
+        }
+
+
 
     })
 
     return (
         <>
-            <div className='card'>
+            <div className='card-calcs2'>
                 <form className="w-25 m-auto pt-5 pb-5">
                     <div className="form-group mb-3">
                         <label htmlFor="reais">Valor em Reais</label>
