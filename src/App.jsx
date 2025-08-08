@@ -5,7 +5,7 @@ import './App.css'
 import Titulo from './Titulo';
 import Rodape from './Rodape';
 import Menu from './Menu'
-import Carrossel from './Carrossel';
+import Banner from './Banner';
 import CalcDollar from './CalcDollar';
 import CalcMetros from './CalcMetros'
 import CalcCm from './CalcCm'
@@ -19,7 +19,7 @@ function App() {
       <div className='container'>
         <Titulo />
         <Menu/>
-        <Carrossel/>
+        <Banner/>
         <CalcDollar/>
         <CalcMetros/>
         <CalcCm/>

@@ -1,6 +1,6 @@
-import './Carrossel.css'
+import './Banner.css'
 
-function Carrossel() {
+function Banner() {
     return (
         <>
             <div id="carouselExampleIndicators" className="carousel slide">
@@ -34,4 +34,4 @@ function Carrossel() {
     )
 }
 
-export default Carrossel
+export default Banner
