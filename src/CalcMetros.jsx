@@ -21,14 +21,16 @@ function CalcMetros() {
 
     return (
         <>  
-            <a className="nav-link" href="#">Conversor de centimetro em Metros</a>
-            <form className="w-25 m-auto pt-5 pb-5">
-                <div className="form-group mb-3">
-                    <label htmlFor="reais">Digite o valor em centímetros</label>
-                    <input type="text" className='form-control' id='centimetro'/>
-                </div>
-                <button type='button' onClick={calcularM} className='btn btn-primary w-100 liquid'><TfiRulerAlt2 size={20} color='inherit'/> Calcular</button>
-            </form>
+            <div className='card'>
+                <a className="nav-link" href="#">Conversor de centimetro em Metros</a>
+                <form className="w-25 m-auto pt-5 pb-5">
+                    <div className="form-group mb-3">
+                        <label htmlFor="reais">Digite o valor em centímetros</label>
+                        <input type="text" className='form-control' id='centimetro'/>
+                    </div>
+                    <button type='button' onClick={calcularM} className='btn btn-primary w-100 liquid'><TfiRulerAlt2 size={20} color='inherit'/> Calcular</button>
+                </form>
+            </div>
         </>
     );
 }

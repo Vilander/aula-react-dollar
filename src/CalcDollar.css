@@ -24,3 +24,10 @@
     --t: 0.3s;
     color: #fff;
   }
+
+  .card{
+    background-color: #75757525;
+    padding: 2rem;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.603);
+  }

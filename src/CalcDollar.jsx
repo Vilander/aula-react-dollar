@@ -35,17 +35,19 @@ function CalcDollar() {
 
     return (
         <>
-            <form className="card w-25 m-auto pt-5 pb-5">
-                <div className="form-group mb-3">
-                    <label htmlFor="reais">Valor em Reais</label>
-                    <input type="text" className='form-control' id='reais' />
-                </div>
-                <div className="form-group mb-3">
-                    <label htmlFor="cotacao">Cotação do Dólar</label>
-                    <input type="text" className='form-control' id='cotacao' />
-                </div>
-                <button type='button' onClick={calcular} className='btn btn-primary w-100 liquid'><TbPigMoney size={20} color='inherit' /> Calcular</button>
-            </form>
+            <div className='card'>
+                <form className="w-25 m-auto pt-5 pb-5">
+                    <div className="form-group mb-3">
+                        <label htmlFor="reais">Valor em Reais</label>
+                        <input type="text" className='form-control' id='reais' />
+                    </div>
+                    <div className="form-group mb-3">
+                        <label htmlFor="cotacao">Cotação do Dólar</label>
+                        <input type="text" className='form-control' id='cotacao' />
+                    </div>
+                    <button type='button' onClick={calcular} className='btn btn-primary w-100 liquid'><TbPigMoney size={20} color='inherit' /> Calcular</button>
+                </form>
+            </div>
         </>
     );
 }
