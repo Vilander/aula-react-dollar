@@ -5,7 +5,7 @@ import { TbRulerMeasure2 } from "react-icons/tb";
 function CalcCm() {
 
     const calcularCm = (function () {
-        const metro = document.getElementById('metro').value
+        const metro = document.getElementById('metro').value.replace(',','.')
         const valorMetro = 100
         const total = metro * valorMetro
             if (metro === '') {

@@ -4,7 +4,7 @@ import { TbPigMoney } from "react-icons/tb";
 function CalcDollar() {
 
     const calcular = (function () {
-        const reais = document.getElementById('reais').value
+        const reais = document.getElementById('reais').value.replace(',','.')
         if (reais === '') {
             alert("O Campo 'VALOR EM REAIS' está vazio, digite um número válido")
         } else if (isNaN(reais)) {
@@ -13,7 +13,7 @@ function CalcDollar() {
             reais
         }
 
-        const cotacao = document.getElementById('cotacao').value
+        const cotacao = document.getElementById('cotacao').value.replace(',','.')
         if (cotacao === '') {
             alert("O Campo 'COTAÇÃO' está vazio, digite um número válido")
         } else if (isNaN(cotacao)) {

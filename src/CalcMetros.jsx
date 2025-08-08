@@ -5,7 +5,7 @@ import { TfiRulerAlt2 } from "react-icons/tfi";
 function CalcMetros() {
 
     const calcularM = (function(){
-        const centimetro = document.getElementById('centimetro').value
+        const centimetro = document.getElementById('centimetro').value.replace(',','.')
         const valorMetro = 100
         const total = centimetro/valorMetro
             if (centimetro ===''){
