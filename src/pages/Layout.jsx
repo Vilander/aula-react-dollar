@@ -10,7 +10,6 @@ function Layout (){
             <div className="container">
                 <Titulo />
                 <Menu />
-                <Banner />
                 <Outlet />
             </div>
             <Rodape />
