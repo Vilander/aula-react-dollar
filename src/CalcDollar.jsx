@@ -38,6 +38,7 @@ function CalcDollar() {
     return (
         <>
             <div className='card-calcs2'>
+                <a className="nav-link" href="#">Conversor de Reais para Dólar</a>
                 <form className="w-25 m-auto pt-5 pb-5">
                     <div className="form-group mb-3">
                         <label htmlFor="reais">Valor em Reais</label>
