@@ -7,7 +7,7 @@ function CalcDollar() {
         const reais = document.getElementById('reais').value
         const cotacao = document.getElementById('cotacao').value
         const total = reais/cotacao
-        alert(total.toFixed(2))
+        alert("Seu dinheiro em Dólar: $"+total.toFixed(2))
 
     })
 

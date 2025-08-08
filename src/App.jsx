@@ -7,6 +7,8 @@ import Rodape from './Rodape';
 import Menu from './Menu'
 import Carrossel from './Carrossel';
 import CalcDollar from './CalcDollar';
+import CalcMetros from './CalcMetros'
+import CalcCm from './CalcCm'
 
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
         <Menu/>
         <Carrossel/>
         <CalcDollar/>
+        <CalcMetros/>
+        <CalcCm/>
+
       </div>
       <Rodape />
     </>
