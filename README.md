@@ -1,63 +1,69 @@
-# Conversor de Dólar e Outras Calculadoras
+# 📌 Conversor de Dólar e Outras Calculadoras
 
-Este projeto foi desenvolvido para facilitar conversões rápidas e práticas, como:
+Este projeto foi desenvolvido para realizar conversões rápidas e práticas em uma interface intuitiva, construída com **React**, usando **componentes reutilizáveis**, **rotas dinâmicas** e **validação de formulários** com lógica condicional.
 
-- **Conversão de dólar para real**
-- **Conversão de centímetros para metros**
-- **Conversão de metros para centímetros**
+## 🚀 Funcionalidades
 
-Tudo isso em uma interface intuitiva, construída com **React**, utilizando **componentes reutilizáveis**, **rotas dinâmicas** e **validação de formulários** com lógica condicional.
+- **Conversão de Dólar para Real** — Calcula o valor em dólares com base na cotação atual e no valor em reais informado pelo usuário.
+- **Conversão de Metros para Centímetros** — Transforma valores em metros para centímetros.
+- **Conversão de Centímetros para Metros** — Transforma valores em centímetros para metros.
+- **Banner Interativo** — Carrossel de imagens ilustrativas com o componente de carrossel do Bootstrap.
+- **Navegação** — Menu com links para as páginas **Calculadoras** e **Sobre**.
+- **Rodapé** — Informações sobre o desenvolvedor e links úteis.
 
-## Funcionalidades
+## 🛠 Tecnologias Utilizadas
 
-### Conversor de Dólar
-Permite calcular o valor em dólares com base na cotação atual e no valor em reais informado pelo usuário.
+- **React** — Biblioteca JavaScript para construção de interfaces.
+- **React Router** — Gerenciamento de rotas dinâmicas.
+- **Bootstrap** — Framework CSS para estilização e componentes responsivos.
+- **React Icons** — Biblioteca de ícones para React.
+- **Vite** — Ferramenta de build para desenvolvimento rápido.
 
-### Conversor de Metros para Centímetros
-Converte valores de metros para centímetros.
+## 📂 Estrutura do Projeto
 
-### Conversor de Centímetros para Metros
-Converte valores de centímetros para metros.
+```
+src/
+├── App.jsx           # Componente principal do aplicativo
+├── App.css           # Estilos globais
+├── Banner.jsx        # Componente de banner
+├── CalcDollar.jsx    # Conversor de dólar
+├── CalcCm.jsx        # Conversor de metros para centímetros
+├── CalcMetros.jsx    # Conversor de centímetros para metros
+├── Menu.jsx          # Menu de navegação
+├── Rodape.jsx        # Rodapé
+├── Titulo.jsx        # Título principal
+├── pages/            # Páginas do projeto
+│   ├── Home.jsx      # Página inicial
+│   ├── Sobre.jsx     # Página sobre o projeto
+│   ├── Layout.jsx    # Layout padrão
+│   ├── NoPage.jsx    # Página 404
+└── assets/           # Imagens e ícones
+```
 
-### Banner Interativo
-Um banner com imagens ilustrativas que utiliza o componente de carrossel do Bootstrap.
-
-### Navegação
-Inclui um menu de navegação com links para as páginas principais: **Calculadoras** e **Sobre**.
-
-### Rodapé
-Um rodapé com informações sobre o desenvolvedor e links úteis.
-
-## Tecnologias Utilizadas
-
-- **React**: Biblioteca JavaScript para construção de interfaces.
-- **React Router**: Gerenciamento de rotas dinâmicas.
-- **Bootstrap**: Framework CSS para estilização e componentes responsivos.
-- **React Icons**: Biblioteca de ícones para React.
-- **Vite**: Ferramenta de build para desenvolvimento rápido.
-
-## Estrutura do Projeto
-src/ ├── App.jsx # Componente principal do aplicativo ├── App.css # Estilos globais ├── Banner.jsx # Componente de banner ├── CalcDollar.jsx # Conversor de dólar ├── CalcCm.jsx # Conversor de metros para centímetros ├── CalcMetros.jsx # Conversor de centímetros para metros ├── Menu.jsx # Menu de navegação ├── Rodape.jsx # Rodapé ├── Titulo.jsx # Título principal ├── pages/ # Páginas do projeto │ ├── Home.jsx # Página inicial │ ├── Sobre.jsx # Página sobre o projeto │ ├── Layout.jsx # Layout padrão │ ├── NoPage.jsx # Página 404 └── assets/ # Imagens e ícones
-
-## Como Executar o Projeto
+## ▶️ Como Executar o Projeto
 
 1. **Instale as dependências**:
    ```sh
    npm install
+   ```
 
-2.**Inicie o servidor de desenvolvimento:**
+2. **Inicie o servidor de desenvolvimento**:
+   ```sh
+   npm run dev
+   ```
 
-npm run dev
+3. **Acesse no navegador**:
+   ```
+   http://localhost:5173
+   ```
 
-3. **Acesse o projeto: Abra o navegador e acesse** 
-```
-http://localhost:5173
-```
+## 👤 Desenvolvedor
 
-Desenvolvedor
-Este projeto foi desenvolvido por Vilander Costa, estudante de Desenvolvimento Front-End no Senac Americana. Para mais informações, visite:
+Projeto desenvolvido por **Vilander Costa**, estudante de **Desenvolvimento Front-End** no **Senac Americana**.
 
-LinkedIn
-Senac Americana
-Licença
-Este projeto está licenciado sob a MIT License.
+🔗 [LinkedIn](https://www.linkedin.com/in/vilander-costa/)  
+🏫 [Senac Americana](https://sp.senac.br/americana)
+
+## 📄 Licença
+
+Este projeto está licenciado sob a **MIT License**.
