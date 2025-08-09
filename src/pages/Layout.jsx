@@ -1,11 +1,11 @@
-import { Outlet } from "react-router-dom";  
-import Titulo from '../Titulo';
-import Rodape from'../Rodape';
-import Menu from '../Menu';
-import Banner from '../Banner';
+import { Outlet } from "react-router-dom";
+import Titulo from '../components/Titulo';
+import Rodape from '../components/Rodape';
+import Menu from '../components/Menu';
+// import Banner from '../components/Banner';
 
-function Layout (){
-    return(
+function Layout() {
+    return (
         <>
             <div className="container">
                 <Titulo />

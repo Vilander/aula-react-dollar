@@ -1,15 +1,14 @@
-import CalcDollar from '../components/CalcDollar'
+import CalcMetros from '../components/CalcMetros'
 import Banner from '../components/Banner'
 
-function Home() {
+function CalculadoraMetros() {
     return (
         <>
             {/* <h2 className="display-5 text-center">Home</h2> */}
             <Banner />
-            <CalcDollar />
-            
+            <CalcMetros />
         </>
     )
 }
 
-export default Home
+export default CalculadoraMetros
